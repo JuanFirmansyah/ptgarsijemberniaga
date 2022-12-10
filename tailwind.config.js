@@ -1,0 +1,45 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+    './section/**/*.{js,ts,jsx,tsx}',
+  ],
+  theme: {
+    extend: {
+      backgroundImage: {
+        kontruksi: "url('/konstruksi.jpg')",
+        concreate: "url('/concreate.jpg')",
+        prolog: "url('/projects/prolog.png')",
+        hecate: "url('/projects/hecate.png')",
+        livin: "url('/projects/livin.png')",
+        maxx: "url('/projects/maxx.png')",
+        msglow: "url('/projects/msglow.png')",
+        pagon: "url('/projects/pagon.png')",
+        bni: "url('/projects/bni.png')",
+        voldemore: "url('/projects/voldemore.png')",
+        dustin: "url('/projects/dustin.png')",
+        mabesad: "url('/partner/mabes-ad.png')",
+        mabesal: "url('/partner/mabes-al.png')",
+        mabesau: "url('/partner/mabes-au.png')",
+        abipraya: "url('/partner/abipraya.png')",
+        esdm: "url('/partner/esdm.png')",
+        hutamakarya: "url('/partner/hutama-karya.png')",
+        idx: "url('/partner/idx.png')",
+        perhubungan: "url('/partner/kementrian-perhubungan.png')",
+        pertanian: "url('/partner/kementrian-pertanian.png')",
+        pu: "url('/partner/kementrian-pu.png')",
+        laut: "url('/partner/kementrian-kelautan.png')",
+        mabespolri: "url('/partner/mabes-polri.png')",
+        pembangunanperumahan: "url('/partner/pembangunan-perumahan.png')",
+        pln: "url('/partner/pln.png')",
+        waskita: "url('/partner/waskita.png')",
+        wika: "url('/partner/wika.png')",
+      },
+      fontFamily: {
+        body: ['Poppins', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+};
